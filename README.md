@@ -34,35 +34,31 @@ First, we provide a user account for our staging server. By defualt there are 3 
 This table describes the file naming conventions agreed by the Transmitter and the bank.
 
 Type of transaction | Convention
- | File name / batch id
- **XX to Refundo** | 
 --- | ---
+ | **File name / batch id**
+ **XX to Refundo** | 
 MEF Returns | XXR_nnnnnnnnn.yyMMddHHmmss.mef
-
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+RT application (Can contain both RT and NOW). B record | XXR_nnnnnnnnn.yyMMddHHmmss.b
 
 
 ## Company Enrollment (.Y Record)
 
 1. Record Layouts
-  * [Open Y Record layouts](../blob/master/record_Y.md)
+  * [Open Y Record layouts](record_Y.md)
 1. Test Cases
-  * [Download test cases](../blob/master/test_cases/test_Y-001.Y)
+  * [Download test cases](test_cases/test_Y-001.Y)
 
 
 ## Bank applications (.B Record)
 
 1. Algorithm for generate account numbers
-  * [Pseudo Code](../blob/master/record_Y.md)
+  * [Pseudo Code](record_Y.md)
   * Libraries
-    * [CPP](../blob/master/libraries/library.txt)
-    * [C#](../blob/master/libraries/library.txt)
-    * [VB](../blob/master/libraries/library.txt)
-    * [PHP](../blob/master/libraries/library.txt)
+    * [CPP](libraries/library.txt)
+    * [C#](libraries/library.txt)
+    * [VB](libraries/library.txt)
+    * [PHP](libraries/library.txt)
+1. Record Layouts
 
 ## Check information record (.6 Record)
 
@@ -70,5 +66,5 @@ Markdown | Less | Pretty
 
 ## Changes
 
-* Changes](../blob/master/changelog.md)
+* [Changes](changelog.md)
 
