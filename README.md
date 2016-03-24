@@ -1,5 +1,7 @@
 # Integration to Refundo Dashboard
 
+`Version 3.0`
+
 ## Data Flow
 
 1. Always the transmitters send a file with letter extention (.Y, .B, etc), Refundo will respond with a numeric extention (.2, .3, etc)
