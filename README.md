@@ -4,15 +4,15 @@
 
 ## Data Flow
 
-1. Always the transmitters send a file with letter extention (.Y, .B, etc), Refundo will respond with a numeric extention (.2, .3, etc)
-1. First step is enrollment of companies
+1. The transmitters send a file with a letter extention (.Y, .B, etc), Refundo will respond with a numeric extention (.2, .3, etc)
+1. The first step is the enrollment of companies
   * Send Y record
-  * Recieve confirmation
-1. Then you proceed to send bank applications
+  * Receive confirmation
+1. Then proceed to send bank applications
   * Send B record
   * Send MEF files
   * Receive confirmation
-1. When checks and fees are ready Refundo will send records to notify
+1. When the checks and fees are ready, Refundo will send records to notify
 
 ## Connection
 
@@ -53,7 +53,7 @@ RT application (Can contain both RT and NOW). B record | XXR_nnnnnnnnn.yyMMddHHm
 
 ## Bank applications (.B Record)
 
-1. Algorithm for generate account numbers
+1. Algorithm for generating account numbers
   * [Pseudo Code](record_Y.md)
   * Libraries
     * [CPP](libraries/library.txt)
