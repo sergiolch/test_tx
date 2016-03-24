@@ -46,7 +46,7 @@ RT application (Can contain both RT and NOW). B record | XXR_nnnnnnnnn.yyMMddHHm
 ## Company Enrollment (.Y Record)
 
 1. Record Layouts
-  * [Open Y Record layouts](record_Y.md)
+  * [Open Y Record layouts](record_layouts/record_Y.md)
 1. Test Cases
   * [Download test cases](test_cases/test_Y-001.Y)
 
