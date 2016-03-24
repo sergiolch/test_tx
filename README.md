@@ -10,6 +10,7 @@
   * Send B record
   * Send MEF files
   * Receive confirmation
+1. When checks and fees are ready Refundo will send records to notify
 
 ## Connection
 
@@ -38,6 +39,13 @@ This table describes the file naming conventions agreed by the Transmitter and t
 | --- | --- |
 | MEF Returns | XXR_nnnnnnnnn.yyMMddHHmmss.mef |
 
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
 ## Company Enrollment (.Y Record)
 
 1. Record Layouts
@@ -47,6 +55,14 @@ This table describes the file naming conventions agreed by the Transmitter and t
 
 
 ## Bank applications (.B Record)
+
+1. Algorithm for generate account numbers
+  * [Pseudo Code](../blob/master/record_Y.md)
+  * Libraries
+    * [CPP](../blob/master/libraries/library.txt)
+    * [C#](../blob/master/libraries/library.txt)
+    * [VB](../blob/master/libraries/library.txt)
+    * [PHP](../blob/master/libraries/library.txt)
 
 ## Check information record (.6 Record)
 
