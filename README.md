@@ -33,12 +33,11 @@ First, we provide a user account for our staging server. By defualt there are 3 
 
 This table describes the file naming conventions agreed by the Transmitter and the bank.
 
-
-| Type of transaction | Convention |
-| | File name / batch id |
-| **XX to Refundo** | |
-| --- | --- |
-| MEF Returns | XXR_nnnnnnnnn.yyMMddHHmmss.mef |
+Type of transaction | Convention
+ | File name / batch id
+ **XX to Refundo** | 
+--- | ---
+MEF Returns | XXR_nnnnnnnnn.yyMMddHHmmss.mef
 
 
 Markdown | Less | Pretty
